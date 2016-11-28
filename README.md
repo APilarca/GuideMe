@@ -4,7 +4,7 @@ Have you ever thought it would be nice to book your guide before you visit somew
 
 You are in the right spot!
 
-GuideMe is a Ruby on Rails application built in a two weeks for travelers who would like to find a guide in a specific city. It's meant for an easy way for travelers to book a guide and communicate with them instantly. In addition to being the team lead, my role in this project was front-end developer. We've implemented various API's including Google Maps, Stripe, Yelp, PixaBay and unslash.
+GuideMe is a Ruby on Rails application built in a two weeks for travelers who would like to find a guide in a specific city. It's meant for an easy way for travelers to book a guide and communicate with them instantly. For this project I did most of the back-end work. We've implemented various API's including Google Maps, Stripe, Yelp, PixaBay and unslash.
 
 You can check out the live version [here] (https://guideme-2016.herokuapp.com/).
 
@@ -14,7 +14,7 @@ User signup.
 
 ![search] (https://github.com/erinc35/GuideMe/blob/development/app/assets/images/search.gif)
 
-Searching cities and find the guide.
+Search cities and find a guide.
 
 ![chat] (https://github.com/erinc35/GuideMe/blob/development/app/assets/images/chat.gif)
 
@@ -46,17 +46,6 @@ $ bundle install
 $ rails server
 ```
 
-## Deployment
-
-You must have Heroku CLI installed and be logged in to Heroku in order to deploy live via Heroku servers
-(Please see the [documentation](https://devcenter.heroku.com) to get set up with Heroku)
-
-Then, after installation and login, via the command line...
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
 ## Tech Used
 
 * [Ruby on Rails](http://api.rubyonrails.org/) - Backend API framework used
